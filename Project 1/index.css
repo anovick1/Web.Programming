@@ -7,6 +7,7 @@ body{
 h1 {
 	color: red;
 	font-size: 20pt;
+  text-align: center;
 }
 h2{
   color: blue;
@@ -17,6 +18,9 @@ h2{
 a {
   outline: none;
   text-decoration: none;
+}
+p.centerImg{
+  text-align: center;
 }
 
 
