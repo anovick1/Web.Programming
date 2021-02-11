@@ -1,0 +1,40 @@
+body{
+    font-size:18pts;
+    font-family: "Monaco";
+    background-color: lightcyan;
+}
+h1 {
+	color: red;
+	font-size: 20pt;
+}
+h2{
+  color: blue;
+  font-size: 16pt;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: red;
+}
+
+
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+a:active {
+  background: red;
+  color: blue;
+}
+
+p::first-letter {
+  font-size: 27pt;
+}
+ol :nth-child(even) {
+    color: green;
+}
